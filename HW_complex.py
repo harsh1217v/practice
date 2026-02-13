@@ -1,0 +1,13 @@
+decimal_num=int(input("enter the no.:"))
+binary_num=bin(decimal_num)
+octal_num=oct(decimal_num)
+hexa_num=hex(decimal_num)
+print(binary_num)
+print(octal_num)
+print(hexa_num)
+print("------------------------------------------")
+
+value =input("enter the no.:")
+base = int(input("enter the base:"))
+result = int(value,base)
+print("decimal no.:",result)
