@@ -1,0 +1,43 @@
+s = "Harsh Dongare"
+print((len(s)))
+print(len(s)//2)
+print("________________________________________________")
+###positive index###
+print(s[6:9])#Don
+print(s[3:10])#sh Dong 
+print(s[4:0:-1])#hsra
+print(s[3:10])#sh Dong
+print(s[0:6])#Harsh
+print("________________________________________________")
+###negative index###
+print(s[-2:-5:-1])#rag
+print(s[-8:-13:-1])# hsra
+print(s[-7:-10:-1])#D h
+print(s[-12:len(s)-1])#arsh Dongar
+print(s[-5:-8:-1])#noD
+print("________________________________________________")
+###positive and negative index###   
+print(s[6:-13:-1])#D hsra
+print(s[3:-2:1])#sh Donga
+print(s[6:-9:-1])#D 
+print(s[1:-1:1])#arsh Dongar
+print(s[4:-6:1])#h D
+print("______________________________________________")
+###negative and positive index###
+print(s[-2:6:-1])#ragno
+print(s[-8:3:-1])# h
+print(s[-7:1:-1])#D hsr
+print(s[-12:3:1])#ar
+print(s[-1:6:-1])#eragno
+print('______________________________________________')
+###positive index with step###
+print(s[0:len(s):2])#HrhDnae
+print(s[6:len(s):3])#Dge
+print(s[ : :4])#Hhne
+print(s[-1:-9:-5])#eo
+print("______________________________________________")
+###negative index with step###
+print(s[-1:-6:-2])#ean
+print(s[-1:-13:-5])#eor
+print(s[-7:-2:5])#D
+print(s[-5:-8:-1])#nod
