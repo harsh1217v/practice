@@ -1,0 +1,17 @@
+l1 = [1,2]
+l2 =["a","b"]
+
+#l3 = []
+#for i in l1:
+#    for j in l2:
+#        l3.append((i,j))
+#print(l3)
+
+#######using comprehension#########
+
+l3 =[(i,j) for i in l1 for j in l2]
+print(l3)
+
+####OUTPUT##########
+[(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b')]
+[(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b')]
