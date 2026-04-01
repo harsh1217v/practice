@@ -1,0 +1,71 @@
+class kiran_academy:
+    def __init__(self,cn,cf):
+        self.course_name =cn
+        self.course_fees =cf
+        
+    def admission(self):
+        print("course_name:",self.course_name)
+        print("course_fees:",self.course_fees)
+        
+a =kiran_academy("Python",25000)
+a.admission ()   
+
+print("______________________________________________")    
+
+class bike:
+    def __init__(self,ts,avg):
+        self.top_speed =ts
+        self.average =avg
+    
+    def ride(self):
+        print("top_speed :",self.top_speed )
+        print("average:",self.average)
+        
+        
+b =bike(180,40)        
+b.ride()
+
+print("______________________________________________")    
+
+
+class gym:
+    def __init__(self,gn,f):
+        self.gym_name =gn
+        self.fees =f
+        
+    def fit(g):
+        print("gym_name:",g.gym_name)
+        print("fees:",g.fees)
+
+g1 =gym("SETFIT",1000)
+g1.fit()
+      
+print("______________________________________________")    
+
+
+class wine_shop:
+    def __init__(self,ln,p):
+        self.liquor_name =ln
+        self.price =p
+    
+    def drink(self):
+        print("liquor_name:",self.liquor_name)
+        print("price:",self.price)
+        
+
+l =wine_shop("xyz",900)
+l.drink()            
+
+print("______________________________________________")    
+
+class lpg:
+    def __init__(self,cn,cp):
+        self.cylinder_name =cn
+        self.cylinder_price =cp
+    
+    def cook(self):
+        print("cylinder_name:",self.cylinder_name)
+        print("cylinder_price:",self.cylinder_price)
+        
+c =lpg("Bharat",900)        
+c.cook()
