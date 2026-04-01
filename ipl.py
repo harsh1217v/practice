@@ -39,6 +39,7 @@ p11 = player("Yash Dayal", 13, 200, 0, "RCB")
 (p11.display())
 
 RCB_TEAM =[]
+
 RCB_TEAM.append(p1)
 RCB_TEAM.append(p2) 
 RCB_TEAM.append(p3)
@@ -51,9 +52,7 @@ RCB_TEAM.append(p9)
 RCB_TEAM.append(p10)
 RCB_TEAM.append(p11)
 
-print("RCB Team Players:")
-for player in RCB_TEAM:
-    print(player.player_name)
-    
+print([p.player_name for p in RCB_TEAM])    
+
 
 
